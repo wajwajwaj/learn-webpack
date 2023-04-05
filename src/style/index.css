@@ -1,0 +1,14 @@
+@font-face{
+    font-family: 'iconfont';
+    src: url('../assets/DingTalk_JinBuTi_Regular.ttf') format('truetype');
+}
+.icon{
+    font-family: 'iconfont';
+    font-size: 100px;
+}
+.hello {
+    color: brown
+}
+.hello-bg{
+ background-image: url('../assets/ixintu.com.svg') !important;
+}

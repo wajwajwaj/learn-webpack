@@ -1,0 +1,8 @@
+title: yaml example
+owner:
+  name: yaml
+  organization : github
+  bio: |-
+    github
+    like 
+  dob: 1998-12-22

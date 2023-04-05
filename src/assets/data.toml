@@ -1,0 +1,7 @@
+title = "toml example"
+
+[owner]
+name='toml'
+organization = 'github'
+bio='bio bio'
+dob='1998-12-22'

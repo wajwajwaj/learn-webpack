@@ -1,0 +1,10 @@
+{
+    //注释
+    title: 'json5',
+    owner: {
+        name: 'toml',
+        organization : 'github',
+        bio: 'bio \n\ bio',
+        dob: '1998-12-22',
+    }
+}
