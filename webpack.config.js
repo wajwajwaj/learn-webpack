@@ -94,6 +94,21 @@ module.exports = {
                     parse: json5.parse
                 }
             },
+            {
+                test: /\.js$/,
+                exclude: /node_modules/, // 排除这个文件，不会对node_modules里的js文件进行处理
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: [
+                            '@babel/preset-env'
+                        ],
+                        plugins: [
+                            '@babel/plugin-transform-runtime' // 在需要regeneratorRuntime的时候自动引包
+                        ]
+                    }
+                }
+            }
         ]
     },
     // 优化配置

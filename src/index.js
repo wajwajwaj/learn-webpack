@@ -10,8 +10,9 @@ import Data from './assets/data.xml'
 import toml from './assets/data.toml'
 import yaml from './assets/data.yaml'
 import json5 from './assets/data.json5'
+import es6func from './project/babelLoader'
 add()
-
+es6func()
 const img = document.createElement('img')
 img.src = image
 img.style.cssText = 'width:200px'
